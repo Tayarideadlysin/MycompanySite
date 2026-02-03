@@ -6,23 +6,23 @@ import { Code2, Lightbulb, Rocket, Coffee, ExternalLink, Globe } from 'lucide-re
 export default function AboutPage() {
   // --- PARTNERS DATA ---
   const partners = [
-    { name: "TechCorp", logo: "TC" },
-    { name: "Zambia Logistics", logo: "ZL" },
+    { name: "Tech", logo: "TC" },
+    { name: " Logistics", logo: "ZL" },
     { name: "CloudStream", logo: "CS" },
-    { name: "Global Freight", logo: "GF" },
-    { name: "Innovate SA", logo: "ISA" },
+    { name: "Freight", logo: "GF" },
+    { name: "Innovate ", logo: "ISA" },
   ];
 
   // --- PROJECTS DATA ---
   const projects = [
     { 
-      title: "Caribou Cargo Dashboard", 
+      title: " Cargo Dashboard", 
       desc: "Real-time logistics tracking system.", 
       link: "https://cariboucargo.com",
       tags: ["Next.js", "PostgreSQL"]
     },
     { 
-      title: "Zambezi VOIP", 
+      title: " VOIP", 
       desc: "SIP Trunking management platform.", 
       link: "#",
       tags: ["WebRTC", "Node.js"]
