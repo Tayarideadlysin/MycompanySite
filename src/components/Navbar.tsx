@@ -113,7 +113,7 @@ export default function Navbar() {
                 ))}
                 <hr className="border-slate-100" />
                 <Link 
-                  href="/contact"
+                  href="/workWithMe"
                   className="w-full bg-[#ff6a00] text-white p-5 rounded-2xl text-center font-bold text-lg shadow-xl"
                 >
                   Start a Project
